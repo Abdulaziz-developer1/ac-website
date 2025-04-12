@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav {
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+nav ul li {
+    margin-left: 15px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav .logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+.icon{
+    width: 35px;
+    height: 30px;
+    background: black;
+    border-radius: 4px;
+    color: #fff;
+    padding: 7px;
+}
+.hero {
+    background: url(./img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    color: white;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+.hero::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+.hero-content {
+    position: relative;
+    z-index: 2;
+}
+.hero h1 {
+    width: 350px;
+    font-size: 55px;
+    margin-left: 245px;
+}
+.hero p {
+    width: 350px;
+    font-size: 20px;
+    margin: 20px 250px;
+}
+.hero button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    margin-left: 250px;
+}
+.support {
+    width: 100%;
+    height: 80vh;
+    padding: 20px;
+    text-align: center;
+}
+.support h2 {
+    font-size: 20px;
+}
+.support-boxes {
+    width: 100%;
+    height:340px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin-top: 50px;
+}
+.support-box {
+    width: 27%;
+    height: 95%;
+    background: #333;
+    color: white;
+    padding: 30px;
+    border-radius: 5px;
+    position: relative;
+}
+.support-box h3 {
+    font-size: 25px;
+    margin-top: 15px;
+}
+.support-box p{
+    margin-top: 30px;
+}
+.lorem{
+    margin-top: 50px;
+    width: 1300px;
+    margin-left: 100px;
+    font-size: 20px;
+}
+.covid {
+    width: 100%;
+    height: 65vh;
+    background: url(images.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding: 60px 30px;
+    position: relative;
+}
+.covid::after {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+.covid-content {
+    position: relative;
+    z-index: 2;
+}
+.covid h2 {
+    font-size: 40px;
+    width: 500px;
+    margin-left: 800px;
+    text-align: end;
+    margin-top: 50px;
+}
+.covid p {
+    width: 450px;
+    text-align: end;
+    margin-left:  850px;
+    margin-top: 20px;
+}
+.covid button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    margin-left: 1140px;
+    margin-top: 20px;
+}
